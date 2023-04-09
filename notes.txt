@@ -1,0 +1,11 @@
+clientX - will give you the x position of the mouse.
+clientY - will give y position of the mouse
+However, when clicked on left side on canvas it draws on right and vice versa as it is unfamiliar that canvas starts from top left corner
+In order the let the program know that canvas starts from top-left we write it as Canvas.offsetLeft( which means canvas starts from left for horizontal axis)
+Canvas.offsetTop ( means canvas starts from top for vertical axis)
+moveTo() method moves the point to the specified point in the canvas, without creating a line.
+syntax of moveTo - ctx.moveTo(x coordinate, y coordinate)
+lineTo() method adds a new point and creates a line TO that point FROM the last specified point(which we have discussed in moveTo()) in the canvas syntax of lineTo - lineTo(x coordinate, y coordinate)
+.value is used after document.getElementByid("") when we are fetching the value from the user using text input box;
+.innerHTML is used after document.getElementById(' ') when we want to display the values on the screen or labels
+when using .value the variable will be always on the left. Ex: color = document.getElementById('clr').value;
